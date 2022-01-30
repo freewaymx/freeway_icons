@@ -14,6 +14,7 @@ and the Flutter guide for
 # freeway_icons
 Icons gallery repository for FreeWay app. Made with https://www.fluttericon.com/
 
+[![freewaymx](https://circleci.com/gh/freewaymx/freeway_icons.svg?style=svg)](https://app.circleci.com/pipelines/github/freewaymx/freeway_icons?filter=all)
 ## Usage
 
 ```dart
