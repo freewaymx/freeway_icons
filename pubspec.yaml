@@ -41,7 +41,7 @@ flutter:
   fonts:
     - family: FreeWayIcons
       fonts:
-        - asset: fonts/FreeWayIcons.ttf
+        - asset: lib/fonts/FreeWayIcons.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

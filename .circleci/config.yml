@@ -1,0 +1,24 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine.
+# See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+# Define a job to be invoked later in a workflow.
+# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+jobs:
+  test-freeway-icons-package:
+    docker:
+      - image: cirrusci/flutter
+    steps:
+      - checkout
+      - run: flutter doctor
+      - run: touch .env
+      - run: flutter analyze
+      - run: flutter test
+      - run: rm .env
+
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+workflows:
+  test-freeway-app-workflow:
+    jobs:
+      - test-freeway-app
