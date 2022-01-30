@@ -11,10 +11,7 @@ jobs:
     steps:
       - checkout
       - run: flutter doctor
-      - run: touch .env
-      - run: flutter analyze
       - run: flutter test
-      - run: rm .env
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
