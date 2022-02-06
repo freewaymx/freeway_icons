@@ -297,6 +297,12 @@
       "search": [
         "filter"
       ]
+    },
+    {
+      "uid": "0ef9cd9bbfceb82f2fffc065f5af6643",
+      "css": "share",
+      "code": 59414,
+      "src": "material"
     }
   ]
 }
