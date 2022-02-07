@@ -27,5 +27,6 @@ void main() {
     expect(FreeWayIcons.filter_with_plus.runtimeType, IconData);
     expect(FreeWayIcons.len.runtimeType, IconData);
     expect(FreeWayIcons.filter.runtimeType, IconData);
+    expect(FreeWayIcons.origin.runtimeType, IconData);
   });
 }
