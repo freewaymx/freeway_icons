@@ -51,4 +51,5 @@ class FreeWayIcons {
   static const IconData origin = IconData(0xe817, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData lightning = IconData(0xe818, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData limpio = IconData(0xe819, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData send = IconData(0xe81a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
