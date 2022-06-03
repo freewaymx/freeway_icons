@@ -54,4 +54,6 @@ class FreeWayIcons {
   static const IconData send = IconData(0xe81a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData offer_service = IconData(0xe81b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData search_service = IconData(0xe81c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData error = IconData(0xe81d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData sucess = IconData(0xe81e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
